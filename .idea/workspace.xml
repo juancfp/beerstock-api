@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f6f6174-7229-47f0-a750-3227583d0504" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/controller/BeerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/controller/BeerControllerDocs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/dto/BeerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/dto/QuantityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/entity/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/enums/BeerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerAlreadyRegisteredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerStockExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/mapper/BeerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/repository/BeerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/service/BeerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/builder/BeerDTOBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/controller/BeerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/utils/JsonConvertionUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CBMGLLUCd9Azx0szZgJcIh62jd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f6f6174-7229-47f0-a750-3227583d0504" name="Changes" comment="" />
+      <created>1658271437921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658271437921</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
