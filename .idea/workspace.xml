@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f6f6174-7229-47f0-a750-3227583d0504" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/controller/BeerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/controller/BeerControllerDocs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/dto/BeerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/dto/QuantityDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/entity/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/enums/BeerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerAlreadyRegisteredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerStockExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/mapper/BeerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/repository/BeerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/service/BeerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/builder/BeerDTOBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/controller/BeerControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/utils/JsonConvertionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/controller/BeerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/controller/BeerControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +26,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2CBMGLLUCd9Azx0szZgJcIh62jd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,12 +42,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
