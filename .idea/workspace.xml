@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f6f6174-7229-47f0-a750-3227583d0504" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerStockEmptyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/controller/BeerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/entity/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/entity/Beer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerStockExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/exception/BeerStockExceededException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/service/BeerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juan/beerstockapi/service/BeerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/controller/BeerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/juan/beerstockapi/controller/BeerControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +54,101 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="juan.beerstockapi.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BeerControllerTest">
+    <configuration name="BeerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beerstock-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juan.beerstockapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="juan.beerstockapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="juan.beerstockapi.controller.BeerControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTest.whenPATCHIsCalledToDecrementLowerThanZeroThenBadRequestStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beerstock-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juan.beerstockapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="juan.beerstockapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="juan.beerstockapi.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="whenPATCHIsCalledToDecrementLowerThanZeroThenBadRequestStatusIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTest.whenPATCHIsCalledWithInvalidBeerIdToIncrementThenNotFoundStatusIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beerstock-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juan.beerstockapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="juan.beerstockapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="juan.beerstockapi.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="whenPATCHIsCalledWithInvalidBeerIdToIncrementThenNotFoundStatusIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTest.whenPOSTIsCalledThenABeerIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beerstock-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juan.beerstockapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="juan.beerstockapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="juan.beerstockapi.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="whenPOSTIsCalledThenABeerIsCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTest.whenPOSTIsCalledWithoutRequiredArgumentsThenAnErrorIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beerstock-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juan.beerstockapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="juan.beerstockapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="juan.beerstockapi.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="whenPOSTIsCalledWithoutRequiredArgumentsThenAnErrorIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeerControllerTest" />
+        <item itemvalue="JUnit.BeerControllerTest.whenPATCHIsCalledToDecrementLowerThanZeroThenBadRequestStatusIsReturned" />
+        <item itemvalue="JUnit.BeerControllerTest.whenPATCHIsCalledWithInvalidBeerIdToIncrementThenNotFoundStatusIsReturned" />
+        <item itemvalue="JUnit.BeerControllerTest.whenPOSTIsCalledWithoutRequiredArgumentsThenAnErrorIsReturned" />
+        <item itemvalue="JUnit.BeerControllerTest.whenPOSTIsCalledThenABeerIsCreated" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

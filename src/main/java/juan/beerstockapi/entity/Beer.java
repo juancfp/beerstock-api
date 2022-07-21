@@ -41,4 +41,5 @@ public class Beer {
     private BeerType type;
 
 
+
 }

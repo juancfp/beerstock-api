@@ -1,5 +1,6 @@
 package juan.beerstockapi.controller;
 
+import juan.beerstockapi.exception.BeerStockEmptyException;
 import lombok.AllArgsConstructor;
 import juan.beerstockapi.dto.BeerDTO;
 import juan.beerstockapi.dto.QuantityDTO;
@@ -54,6 +55,10 @@ public class BeerController implements BeerControllerDocs {
     @PatchMapping("/{id}/increment")
     public BeerDTO increment(@PathVariable Long id, @RequestBody @Valid QuantityDTO quantityDTO) throws BeerNotFoundException, BeerStockExceededException {
         return beerService.increment(id, quantityDTO.getQuantity());
+    }
+    @PatchMapping("/{id}/decrement")
+    public BeerDTO decrement(@PathVariable Long id, @RequestBody @Valid QuantityDTO quantityDTO) throws BeerNotFoundException, BeerStockEmptyException {
+        return beerService.decrement(id, quantityDTO.getQuantity());
     }
 }
 

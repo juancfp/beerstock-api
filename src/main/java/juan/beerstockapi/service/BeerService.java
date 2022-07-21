@@ -1,5 +1,6 @@
 package juan.beerstockapi.service;
 
+import juan.beerstockapi.exception.BeerStockEmptyException;
 import lombok.AllArgsConstructor;
 import juan.beerstockapi.dto.BeerDTO;
 import juan.beerstockapi.entity.Beer;
@@ -63,10 +64,21 @@ public class BeerService {
         Beer beerToIncrementStock = verifyIfExists(id);
         int quantityAfterIncrement = quantityToIncrement + beerToIncrementStock.getQuantity();
         if (quantityAfterIncrement <= beerToIncrementStock.getMax()) {
-            beerToIncrementStock.setQuantity(beerToIncrementStock.getQuantity() + quantityToIncrement);
+            beerToIncrementStock.setQuantity(quantityAfterIncrement);
             Beer incrementedBeerStock = beerRepository.save(beerToIncrementStock);
             return beerMapper.toDTO(incrementedBeerStock);
         }
         throw new BeerStockExceededException(id, quantityToIncrement);
+    }
+
+    public BeerDTO decrement(Long id, int quantityToDecrement) throws BeerNotFoundException, BeerStockEmptyException {
+        Beer beerToDecrementStock = verifyIfExists(id);
+        int quantityAfterDecrement = beerToDecrementStock.getQuantity() - quantityToDecrement;
+        if (quantityAfterDecrement >= 0) {
+            beerToDecrementStock.setQuantity(quantityAfterDecrement);
+            Beer incrementedBeerStock = beerRepository.save(beerToDecrementStock);
+            return beerMapper.toDTO(incrementedBeerStock);
+        }
+        throw new BeerStockEmptyException(id, quantityToDecrement);
     }
 }
